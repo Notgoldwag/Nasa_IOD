@@ -22,7 +22,7 @@ with open(image_path, "wb") as file:
 
 st.title(title)
 st.image(image_path)
-st.info(explanation)
+st.text(explanation)
 
 
 
